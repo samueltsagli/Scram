@@ -1,0 +1,18 @@
+{
+  "name": "tls_oracle_nodejs",
+  "version": "1.0.0",
+  "description": "This is a simple application for connecting to oracle db",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "tls.js",
+  "scripts": {
+    "thin": "node tls.js",
+    "thick": "node tls_thick.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "oracledb": "^7.0.1"
+  }
+}
