@@ -9,6 +9,8 @@
   "scripts": {
     "thin": "node tls.js",
     "thick": "node tls_thick.js",
+    "walletless": "node tls_walletless.js",
+    "thick-walletless": "node tls_thick_walletless.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
